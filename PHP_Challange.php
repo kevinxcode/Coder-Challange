@@ -15,8 +15,8 @@ echo StringChallenge(fgets(fopen('php://stdin', 'r')));
 
 ?>
 
-
-
+Here's a PHP function that returns the maximum possible profit that can be made by buying and selling a stock at the right time, given an array of stock prices:
+For example: if arr is [44, 30, 24, 32, 35, 30, 40, 38, 15] then your program should return 16 because at index 2 the stock was worth $24 and at index 6 the stock was then worth $40, so if you bought the stock at 24 and sold it at 40, you would have made a profit of $16
 <?php
 function ArrayChallenge($arr) {
   $min = PHP_INT_MAX;
